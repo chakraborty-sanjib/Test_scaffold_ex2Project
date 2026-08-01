@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Sanjib.Chakraborty@ibm.com</value>
-    <value name="lastModifiedDate">1785597351744</value>
+    <value name="lastModifiedDate">1785617045664</value>
     <value name="displayName">http_conn</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -79,6 +79,28 @@
           <value name="description">getAccountsForCustomer</value>
           <value name="serviceName">jc.banking.pub:getAccountsForCustomer</value>
           <value name="displayName">getAccountsForCustomer</value>
+          <value name="assetType">Flow Service</value>
+          <null name="nsName"/>
+          <value name="itemType">flowService</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">1</value>
+      </record>
+      <record name="/2" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">JcBankingService</value>
+          <value name="groupName">JcBankingService;1.0.3</value>
+          <null name="services"/>
+        </record>
+        <Boolean name="isProjectPackage">false</Boolean>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">verifyCustomerAndGetId</value>
+          <value name="serviceName">jc.banking.pub:verifyCustomerAndGetId</value>
+          <value name="displayName">verifyCustomerAndGetId</value>
           <value name="assetType">Flow Service</value>
           <null name="nsName"/>
           <value name="itemType">flowService</value>

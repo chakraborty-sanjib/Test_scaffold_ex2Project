@@ -12,4 +12,8 @@
 <INVOKE NAME="JcBankingService" SERVICE="jc.banking.pub:getAccountsForCustomer">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<INVOKE NAME="JcBankingService" SERVICE="jc.banking.pub:verifyCustomerAndGetId">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
