@@ -9,14 +9,13 @@
       <value name="node_type">record</value>
       <value name="node_subtype">unknown</value>
       <value name="is_public">false</value>
-      <value name="field_type">record</value>
+      <value name="field_type">recref</value>
       <value name="field_dim">0</value>
       <value name="nillable">true</value>
       <value name="form_qualified">false</value>
       <value name="is_global">false</value>
-      <array name="rec_fields" type="record" depth="1">
-      </array>
       <value name="modifiable">true</value>
+      <value name="rec_ref">project.test_scaffold_ex2.documenttypes:binica</value>
     </record>
     <record name="sig_out" javaclass="com.wm.util.Values">
       <value name="node_type">record</value>
@@ -45,9 +44,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Sanjib.Chakraborty@ibm.com</value>
-    <value name="createdDate">1785617279259</value>
-    <value name="lastModifiedDate">1785617279259</value>
+    <value name="lastModifiedBy">Sanjib.Chakraborty@ibm.com</value>
+    <value name="lastModifiedDate">1785617931031</value>
     <value name="displayName">mockery</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -64,6 +62,8 @@
           <value name="serviceName">pub.xml:loadXMLNode</value>
           <value name="transformerSupport">true</value>
         </record>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
   </record>
