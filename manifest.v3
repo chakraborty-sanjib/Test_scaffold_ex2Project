@@ -11,18 +11,19 @@
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="JcBankingService">1.0.3</value>
+    <value name="OpenWeatherClient">1.0</value>
   </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">4</value>
+  <value name="build">5</value>
   <null name="description"/>
   <value name="created_date">01-08-2026 14:55:22 GMT</value>
   <null name="extendedProperties"/>
   <value name="target_server_version">12.1.0.0</value>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-08-01T15:06:10.953094686Z</value>
+  <value name="lastUpdated">2026-08-01T15:12:22.501274791Z</value>
   <value name="wmProjectId">flbc51cedf249b41a29847ea6f6f911c8c</value>
   <value name="creator">Sanjib Chakraborty</value>
 </Values>
