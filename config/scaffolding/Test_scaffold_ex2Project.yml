@@ -22,6 +22,10 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: public
   wpmVersion: v2.1.0
+- name: WxServiceAlerts
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: public
+  wpmVersion: v3.1.2
 services:
 - serviceName: project.test_scaffold_ex2.integrations:http_conn
   packages:
