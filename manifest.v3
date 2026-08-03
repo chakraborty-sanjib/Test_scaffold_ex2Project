@@ -16,19 +16,18 @@
     <value name="WxServiceAlerts">3.1.2</value>
     <value name="WmUnitTestManager">12.1.0.0.27</value>
     <value name="WmHL7">12.1.0.0.33</value>
-    <value name="WmSharePointAdapter">10.5.0.0.5</value>
   </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">25</value>
+  <value name="build">26</value>
   <null name="description"/>
   <value name="created_date">01-08-2026 14:55:22 GMT</value>
   <null name="extendedProperties"/>
   <value name="target_server_version">12.1.0.0</value>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-08-03T04:17:09.623208429Z</value>
+  <value name="lastUpdated">2026-08-03T04:21:19.091112942Z</value>
   <value name="wmProjectId">flbc51cedf249b41a29847ea6f6f911c8c</value>
   <value name="creator">Sanjib Chakraborty</value>
 </Values>
