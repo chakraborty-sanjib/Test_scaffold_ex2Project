@@ -13,11 +13,6 @@ packages:
   gitUrl: https://github.com/johnpcarter
   gitUsername: chakraborty-sanjib
   gitBranch: main
-- name: OpenWeatherClient
-  version: "1.0"
-  wpmServer: https://packages.webmethods.io
-  wpmRegistry: public
-  wpmVersion: latest
 - name: JcPublicTools
   wpmServer: https://packages.webmethods.io
   wpmRegistry: public
