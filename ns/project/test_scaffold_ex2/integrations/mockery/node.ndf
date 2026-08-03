@@ -45,7 +45,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Sanjib.Chakraborty@ibm.com</value>
-    <value name="lastModifiedDate">1785731443914</value>
+    <value name="lastModifiedDate">1785732293091</value>
     <value name="displayName">mockery</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -85,6 +85,25 @@
           <value name="serviceName">pub.date:compareDates</value>
           <value name="transformerSupport">true</value>
         </record>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <value name="nodePathForDebug">2</value>
+      </record>
+      <record name="/3" javaclass="com.wm.util.Values">
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">IO</value>
+          <value name="groupName">io</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="transformerSupport">true</value>
+          <value name="displayName">bytesToStream</value>
+          <value name="serviceName">pub.io:bytesToStream</value>
+          <Boolean name="enabled">true</Boolean>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
       </record>
     </record>
   </record>

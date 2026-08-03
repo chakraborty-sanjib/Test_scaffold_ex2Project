@@ -15,4 +15,8 @@
 <INVOKE NAME="Date" SERVICE="pub.date:compareDates">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<INVOKE NAME="IO" SERVICE="pub.io:bytesToStream">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
