@@ -9,7 +9,6 @@
   <COMMENT></COMMENT>
 </INVOKE>
 
-<INVOKE NAME="WmHL7">
-  <COMMENT></COMMENT>
+<INVOKE NAME="INTEGRATIONS" SERVICE="project.test_scaffold_ex2.integrations:http_conn">
 </INVOKE>
 </FLOW>

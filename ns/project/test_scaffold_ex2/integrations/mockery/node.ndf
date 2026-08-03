@@ -45,7 +45,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">Sanjib.Chakraborty@ibm.com</value>
-    <value name="lastModifiedDate">1785730521443</value>
+    <value name="lastModifiedDate">1785731221879</value>
     <value name="displayName">mockery</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -66,14 +66,9 @@
         <value name="nodePathForDebug">0</value>
       </record>
       <record name="/1" javaclass="com.wm.util.Values">
-        <null name="name"/>
-        <value name="itemType">PACKAGES</value>
-        <record name="serviceInfo" javaclass="com.wm.util.Values">
-          <value name="groupDisplayName">WmHL7</value>
-          <value name="groupName">WmHL7;12.1.0.0.33</value>
-          <null name="services"/>
-        </record>
-        <Boolean name="isProjectPackage">false</Boolean>
+        <value name="name">http_conn</value>
+        <value name="displayName">http_conn</value>
+        <value name="itemType">INTEGRATIONS</value>
       </record>
     </record>
   </record>
