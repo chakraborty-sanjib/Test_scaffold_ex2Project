@@ -30,6 +30,9 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
   wpmVersion: v12.1.0.0.27
+- name: WmHL7
+  wpmServer: https://packages.webmethods.io
+  wpmRegistry: supported
 services:
 - serviceName: project.test_scaffold_ex2.integrations:http_conn
   packages:
