@@ -11,4 +11,8 @@
 
 <INVOKE NAME="INTEGRATIONS" SERVICE="project.test_scaffold_ex2.integrations:http_conn">
 </INVOKE>
+
+<INVOKE NAME="Date" SERVICE="pub.date:compareDates">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
