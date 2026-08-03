@@ -32,10 +32,6 @@ packages:
   wpmServer: https://packages.webmethods.io
   wpmRegistry: public
   wpmVersion: latest
-- name: WmDocuSignProvider
-  wpmServer: https://packages.webmethods.io
-  wpmRegistry: supported
-  wpmVersion: v12.0.0
 services:
 - serviceName: project.test_scaffold_ex2.integrations:http_conn
   packages:
