@@ -16,4 +16,8 @@
 <INVOKE NAME="JcBankingService" SERVICE="jc.banking.pub:verifyCustomerAndGetId">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<INVOKE NAME="IO" SERVICE="pub.io:createByteArray">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
